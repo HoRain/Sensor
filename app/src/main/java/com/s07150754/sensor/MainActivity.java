@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.s07150754.sensordemo.R;
+
 public class MainActivity extends AppCompatActivity  implements SensorEventListener{
     private SensorManager mSensorManager;
     private Sensor mAccelerometer;
